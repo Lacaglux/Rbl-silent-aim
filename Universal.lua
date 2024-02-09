@@ -23,7 +23,7 @@ local KnownBodyParts = {
 
 local Window = Parvus.Utilities.UI:Window({
     Name = ("Parvus Hub %s %s"):format(utf8.char(8212),Parvus.Game.Name),
-    Position = UDim2.new(0.5,-248 * 3,0.5,-248)
+    Position = UDim2.new(0.1,-148 * 3,0.5,-148)
 }) do
 
     local CombatTab = Window:Tab({Name = "Combat"}) do
